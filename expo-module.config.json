@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "tvos", "android", "web"],
+  "ios": {
+    "modules": ["LironnickPagseguroModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.lironnickpagseguro.LironnickPagseguroModule"]
+  }
+}

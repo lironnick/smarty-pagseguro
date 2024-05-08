@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "lironnick-pagseguro": ["../src/index"],
+      "lironnick-pagseguro/*": ["../src/*"]
+    }
+  }
+}
